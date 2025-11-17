@@ -1,0 +1,123 @@
+ul.topnav{
+    display: flex;
+    list-style-type: none;
+    background: black;    
+    justify-content: center;
+    border-radius: 8px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+ul.topnav li a{
+    display: block;
+    color: white;
+    padding: 14px;
+    
+    
+}
+
+h1{
+    font-size: 300%;
+    text-transform: uppercase;
+    text-align: center;
+    background: url("my_images/1342688.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+card{
+    padding: 10px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    justify-items: center;
+}
+
+.card img{
+    border-radius: 8px;
+}
+
+span{
+    color: black;
+    font-size: 25px;
+}
+
+@media screen and (resolution) and (min-width:480px) {
+    body {
+        background: linear-gradient(
+                    rgb(0, 0, 0), 
+                    rgba(153, 33, 153, 0.5)
+                  ),
+                  url('my_images/1358788.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+    
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+    .martin img {
+        clip-path: circle();
+        float: right;
+        background-color: black;
+        position: relative;
+        top: 0px;
+        right: 20px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        background: black;
+        padding: 14px;
+        color: white;
+        gap: 20px;
+        height: 20vh;
+        border-radius: 20px;
+        
+
+    }
+    .footer i{
+        align-items: center;
+    }
+
+       input{
+           border-radius: 20px;
+           box-shadow: 20px;
+           background: rgb(221, 209, 209);
+           padding: 10px;
+           margin: 0px;
+       }
+
+       textarea{
+           border-radius: 8px;
+           box-shadow: 20px;
+           background: rgb(192, 180, 180);
+
+       }
